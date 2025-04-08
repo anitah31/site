@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+    My Personal Website
+
+  </title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"/>
+</head>
+<body>
+  <!-- Navigation Bar -->
+<header role="banner" id="top">
+  <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+  <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+  <li class="nav__item"><a href="#work" class="nav__link">About Me</a></li>
+  <li class="nav__item">
+    <a href="#education" class="nav__link">Education</a>
+  </li>
+  <li class="nav__item">
+    <a href="#about" class="nav__link">Work</a>
+  </li>
+  
+
+  <li class="nav__item">
+    <a href="#contact" class="nav__link">Contact</a>
+  </li>
+</ul>
+<button id="theme-toggle">🌙</button>
+</nav>
+</div>
+
+</header>
+
+  <section id="home">
+    <span>GACHANJA ANITAH</span>
+</h1>
+<!-- Put a small paragraph about yourself -->
+<p>A FrontEnd  Developer.</p>
+    <h1>Welcome to My Portfolio</h1>
+    <p id="greeting"></p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="me.jpg" alt="My Photo" height="200" width="250">
+    <p>
+      Bonjour! I go by the name Gachanja Anitah.lam passionate about cybersecurity and also developing Websites.  I use my skills  to devise solutions to daily life challenges.In addition to that l love immersing myself into entrepreneurship,painting ,listening to musice and reading. I
+      also  play badminton,chess and swim</p>
+    <p>I have a Resin startup company that helps me shocase my artistic nature
+      and improves my creativity.
+    </p>
+
+    <section id="education">
+      <div class="row">
+        <h3>Education and certifications</h3>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am a full-time student at United States International University pursuing a bachelor's degree in Applied Computer Technology.</p>
+            <p>I am also aquired a certifiacte in Artificial Intelligence.
+    
+            </p>
+          
+          </div>
+    
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="AI.png" alt="developer_photo" height="250" width="250" />
+            <img class="about__photo" src="usiulogo.png" alt="developer_photo" height="250" width="250" />
+          </div>
+        </div>
+      </div>
+     </section>
+
+
+    <div class="skills">
+      <h3>My Skills</h3>
+      <div class="skill"><span>HTML</span><div class="progress"><div class="bar html"></div></div></div>
+      <div class="skill"><span>CSS</span><div class="progress"><div class="bar css"></div></div></div>
+      <div class="skill"><span>JavaScript</span><div class="progress"><div class="bar js"></div></div></div>
+    </div>
+
+  </section>
+
+  <section class="work">
+    <div class="row">
+      <h2>Projects</h2>
+      <div class="work__boxes">
+
+        <!-- Each div with the work__box class is a project. -->
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>RESIN PRODUCT APP</h3>
+            <p>
+              This is a resin product site that displays 
+              unIque products crafted into your liking
+
+            </p>
+            <ul class="work__list">
+              <li>JavaScript</li>
+              <li>HTML </li>
+              <li>CSS</li>
+            </ul>
+
+            <div class="work__links">
+              <a href="https://resin-products.vercel.app/" target="_blank" class="link__text">
+                View Website<span>&rarr;</span>
+              </a>
+              <a href="https://github.com/anitah31/resin-products" title="View Source Code" target="_blank">
+                <img src="sample1.png" class="work__code" alt="GitHub">
+              </a>
+            </div>
+          </div>
+
+          
+      
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Message..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GACHANJA</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
